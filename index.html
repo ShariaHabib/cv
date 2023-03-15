@@ -3,33 +3,71 @@
   <head>
     <title>Md. Sharia Habib Ula</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f7f7f7;
+      }
       .container {
         max-width: 800px;
         margin: 0 auto;
         padding: 40px 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+      }
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+      }
+      .embed-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
       }
       .contact-info {
         margin-top: 30px;
+        text-align: center;
       }
       .contact-info p {
         margin-bottom: 5px;
+        font-size: 18px;
+        line-height: 24px;
       }
       .contact-info i {
         margin-right: 10px;
+        font-size: 24px;
+        vertical-align: middle;
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #000;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1 align="center">Md. Sharia Habib Ula</h1>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="Resume_1.0.pdf"></iframe>
+      <h1>Md Sharia Habib Ula</h1>
+      <div class="embed-container">
+        <iframe src="Resume_1.0.pdf"></iframe>
       </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i>Email: <a href="mailto:sharia.habib.ula@gmail.com">sharia.habib.ula@gmail.com</a></p>
+        <p><i class="fab fa-linkedin"></i>LinkedIn: <a href="https://linkedin.com/in/shariahabib">https://linkedin.com/in/shariahabib</a></p>
+      </div>
+    </div>
   </body>
 </html>
