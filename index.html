@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Md. Sharia Habib Ula</title>
+    <title>Md. Sharia Habib Ula - Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
       body {
         font-family: 'Montserrat', sans-serif;
         background-color: #f7f7f7;
       }
       .container {
-        max-width: 800px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 40px 20px;
         background-color: #fff;
@@ -21,19 +23,20 @@
         font-size: 36px;
         text-align: center;
         margin-bottom: 30px;
+        color: #2c3e50;
       }
-      .embed-container {
+      .embed-responsive {
         position: relative;
-        padding-bottom: 56.25%;
+        padding-bottom: 78%;
         height: 0;
         overflow: hidden;
       }
-      .embed-container iframe {
+      .embed-responsive iframe {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 400%;
+        height: 800%;
       }
       .contact-info {
         margin-top: 30px;
@@ -43,11 +46,13 @@
         margin-bottom: 5px;
         font-size: 18px;
         line-height: 24px;
+        color: #2c3e50;
       }
       .contact-info i {
         margin-right: 10px;
         font-size: 24px;
         vertical-align: middle;
+        color: #2c3e50;
       }
       a {
         color: #333;
@@ -56,18 +61,33 @@
       a:hover {
         color: #000;
       }
+      .copyright {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: #7f8c8d;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Md Sharia Habib Ula</h1>
-      <div class="embed-container">
-        <iframe src="Resume_1.0.pdf"></iframe>
-      </div>
-      <div class="contact-info">
-        <p><i class="fas fa-envelope"></i>Email: <a href="mailto:sharia.habib.ula@gmail.com">sharia.habib.ula@gmail.com</a></p>
-        <p><i class="fab fa-linkedin"></i>LinkedIn: <a href="https://linkedin.com/in/shariahabib">https://linkedin.com/in/shariahabib</a></p>
-      </div>
-    </div>
+      <h1>Md. Sharia Habib Ula</h1>
+  <div class="contact-info">
+    <p><i class="fas fa-phone"></i>Phone: <a href="tel:+8801619121241">+8801619121241</a></p>
+    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:sharia.habib.ula@gmail.com">sharia.habib.ula@gmail.com</a></p>
+    <p><i class="fab fa-linkedin"></i>LinkedIn: <a href="https://www.linkedin.com/in/shariahabib/">https://www.linkedin.com/in/shariahabib</a></p>
+  </div>
+
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="mycv.pdf"></iframe>
+  </div>
+
+  <div class="copyright">
+    <p>&copy; 2023 Md. Sharia Habib Ula</p>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
