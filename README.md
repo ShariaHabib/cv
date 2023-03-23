@@ -1,1 +1,3 @@
-# cv
+# Introduction Of Myself
+
+Assalamualaikum, my name is Md. Sharia Habib Ula and I am a computer science student. I completed my secondary and higher secondary education from Bangladesh Nou Bahini School College and I am currently pursuing my graduation from IIUC. During my academic journey, I have worked on various projects such as the Hospital Information System in C++ in the second semester, using the Qt framework. In my fourth semester, I developed a game using Java Netbeans and a Hospital management system. I have experience working with Django and have developed a restaurant reservation system called MOGO. Additionally, I am a competitive programmer and have achieved the 8th rank in the Intra Department Programming Contest. I have also participated in several programming contests, and my team and I were selected for the final round of a hackathon called Code Samurai from a pool of 500+ teams. And in the final we were in the list of top 15 teams.
